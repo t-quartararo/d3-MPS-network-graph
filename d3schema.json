@@ -1,0 +1,1310 @@
+{
+  "nodes": [
+    {
+      "name": "Query",
+      "type": "Type"
+    },
+    {
+      "name": "node",
+      "type": "field"
+    },
+    {
+      "name": "pokedex",
+      "type": "field"
+    },
+    {
+      "name": "pokemon",
+      "type": "field"
+    },
+    {
+      "name": "Node",
+      "type": "Type"
+    },
+    {
+      "name": "id",
+      "type": "field"
+    },
+    {
+      "name": "Pokedex",
+      "type": "Type"
+    },
+    {
+      "name": "id",
+      "type": "field"
+    },
+    {
+      "name": "created",
+      "type": "field"
+    },
+    {
+      "name": "modified",
+      "type": "field"
+    },
+    {
+      "name": "name",
+      "type": "field"
+    },
+    {
+      "name": "pokemon",
+      "type": "field"
+    },
+    {
+      "name": "resource_uri",
+      "type": "field"
+    },
+    {
+      "name": "PokemonConnection",
+      "type": "Type"
+    },
+    {
+      "name": "pageInfo",
+      "type": "field"
+    },
+    {
+      "name": "edges",
+      "type": "field"
+    },
+    {
+      "name": "PageInfo",
+      "type": "Type"
+    },
+    {
+      "name": "hasNextPage",
+      "type": "field"
+    },
+    {
+      "name": "hasPreviousPage",
+      "type": "field"
+    },
+    {
+      "name": "startCursor",
+      "type": "field"
+    },
+    {
+      "name": "endCursor",
+      "type": "field"
+    },
+    {
+      "name": "PokemonEdge",
+      "type": "Type"
+    },
+    {
+      "name": "node",
+      "type": "field"
+    },
+    {
+      "name": "cursor",
+      "type": "field"
+    },
+    {
+      "name": "Pokemon",
+      "type": "Type"
+    },
+    {
+      "name": "id",
+      "type": "field"
+    },
+    {
+      "name": "abilities",
+      "type": "field"
+    },
+    {
+      "name": "attack",
+      "type": "field"
+    },
+    {
+      "name": "catch_rate",
+      "type": "field"
+    },
+    {
+      "name": "created",
+      "type": "field"
+    },
+    {
+      "name": "defense",
+      "type": "field"
+    },
+    {
+      "name": "descriptions",
+      "type": "field"
+    },
+    {
+      "name": "egg_cycles",
+      "type": "field"
+    },
+    {
+      "name": "egg_groups",
+      "type": "field"
+    },
+    {
+      "name": "ev_yield",
+      "type": "field"
+    },
+    {
+      "name": "evolutions",
+      "type": "field"
+    },
+    {
+      "name": "exp",
+      "type": "field"
+    },
+    {
+      "name": "growth_rate",
+      "type": "field"
+    },
+    {
+      "name": "happiness",
+      "type": "field"
+    },
+    {
+      "name": "height",
+      "type": "field"
+    },
+    {
+      "name": "hp",
+      "type": "field"
+    },
+    {
+      "name": "male_female_ratio",
+      "type": "field"
+    },
+    {
+      "name": "modified",
+      "type": "field"
+    },
+    {
+      "name": "moves",
+      "type": "field"
+    },
+    {
+      "name": "name",
+      "type": "field"
+    },
+    {
+      "name": "national_id",
+      "type": "field"
+    },
+    {
+      "name": "pkdx_id",
+      "type": "field"
+    },
+    {
+      "name": "resource_uri",
+      "type": "field"
+    },
+    {
+      "name": "sp_atk",
+      "type": "field"
+    },
+    {
+      "name": "sp_def",
+      "type": "field"
+    },
+    {
+      "name": "species",
+      "type": "field"
+    },
+    {
+      "name": "speed",
+      "type": "field"
+    },
+    {
+      "name": "sprites",
+      "type": "field"
+    },
+    {
+      "name": "total",
+      "type": "field"
+    },
+    {
+      "name": "types",
+      "type": "field"
+    },
+    {
+      "name": "weight",
+      "type": "field"
+    },
+    {
+      "name": "AbilityConnection",
+      "type": "Type"
+    },
+    {
+      "name": "pageInfo",
+      "type": "field"
+    },
+    {
+      "name": "edges",
+      "type": "field"
+    },
+    {
+      "name": "AbilityEdge",
+      "type": "Type"
+    },
+    {
+      "name": "node",
+      "type": "field"
+    },
+    {
+      "name": "cursor",
+      "type": "field"
+    },
+    {
+      "name": "Ability",
+      "type": "Type"
+    },
+    {
+      "name": "id",
+      "type": "field"
+    },
+    {
+      "name": "name",
+      "type": "field"
+    },
+    {
+      "name": "created",
+      "type": "field"
+    },
+    {
+      "name": "modified",
+      "type": "field"
+    },
+    {
+      "name": "description",
+      "type": "field"
+    },
+    {
+      "name": "resource_uri",
+      "type": "field"
+    },
+    {
+      "name": "DescriptionConnection",
+      "type": "Type"
+    },
+    {
+      "name": "pageInfo",
+      "type": "field"
+    },
+    {
+      "name": "edges",
+      "type": "field"
+    },
+    {
+      "name": "DescriptionEdge",
+      "type": "Type"
+    },
+    {
+      "name": "node",
+      "type": "field"
+    },
+    {
+      "name": "cursor",
+      "type": "field"
+    },
+    {
+      "name": "Description",
+      "type": "Type"
+    },
+    {
+      "name": "created",
+      "type": "field"
+    },
+    {
+      "name": "description",
+      "type": "field"
+    },
+    {
+      "name": "games",
+      "type": "field"
+    },
+    {
+      "name": "id",
+      "type": "field"
+    },
+    {
+      "name": "modified",
+      "type": "field"
+    },
+    {
+      "name": "name",
+      "type": "field"
+    },
+    {
+      "name": "pokemon",
+      "type": "field"
+    },
+    {
+      "name": "resource_uri",
+      "type": "field"
+    },
+    {
+      "name": "GameConnection",
+      "type": "Type"
+    },
+    {
+      "name": "pageInfo",
+      "type": "field"
+    },
+    {
+      "name": "edges",
+      "type": "field"
+    },
+    {
+      "name": "GameEdge",
+      "type": "Type"
+    },
+    {
+      "name": "node",
+      "type": "field"
+    },
+    {
+      "name": "cursor",
+      "type": "field"
+    },
+    {
+      "name": "Game",
+      "type": "Type"
+    },
+    {
+      "name": "created",
+      "type": "field"
+    },
+    {
+      "name": "generation",
+      "type": "field"
+    },
+    {
+      "name": "id",
+      "type": "field"
+    },
+    {
+      "name": "modified",
+      "type": "field"
+    },
+    {
+      "name": "name",
+      "type": "field"
+    },
+    {
+      "name": "release_year",
+      "type": "field"
+    },
+    {
+      "name": "resource_uri",
+      "type": "field"
+    },
+    {
+      "name": "EggConnection",
+      "type": "Type"
+    },
+    {
+      "name": "pageInfo",
+      "type": "field"
+    },
+    {
+      "name": "edges",
+      "type": "field"
+    },
+    {
+      "name": "EggEdge",
+      "type": "Type"
+    },
+    {
+      "name": "node",
+      "type": "field"
+    },
+    {
+      "name": "cursor",
+      "type": "field"
+    },
+    {
+      "name": "Egg",
+      "type": "Type"
+    },
+    {
+      "name": "created",
+      "type": "field"
+    },
+    {
+      "name": "id",
+      "type": "field"
+    },
+    {
+      "name": "modified",
+      "type": "field"
+    },
+    {
+      "name": "name",
+      "type": "field"
+    },
+    {
+      "name": "pokemon",
+      "type": "field"
+    },
+    {
+      "name": "resource_uri",
+      "type": "field"
+    },
+    {
+      "name": "Evolution",
+      "type": "Type"
+    },
+    {
+      "name": "level",
+      "type": "field"
+    },
+    {
+      "name": "method",
+      "type": "field"
+    },
+    {
+      "name": "pokemon",
+      "type": "field"
+    },
+    {
+      "name": "to",
+      "type": "field"
+    },
+    {
+      "name": "MoveConnection",
+      "type": "Type"
+    },
+    {
+      "name": "pageInfo",
+      "type": "field"
+    },
+    {
+      "name": "edges",
+      "type": "field"
+    },
+    {
+      "name": "MoveEdge",
+      "type": "Type"
+    },
+    {
+      "name": "node",
+      "type": "field"
+    },
+    {
+      "name": "cursor",
+      "type": "field"
+    },
+    {
+      "name": "Move",
+      "type": "Type"
+    },
+    {
+      "name": "accuracy",
+      "type": "field"
+    },
+    {
+      "name": "category",
+      "type": "field"
+    },
+    {
+      "name": "created",
+      "type": "field"
+    },
+    {
+      "name": "description",
+      "type": "field"
+    },
+    {
+      "name": "id",
+      "type": "field"
+    },
+    {
+      "name": "modified",
+      "type": "field"
+    },
+    {
+      "name": "name",
+      "type": "field"
+    },
+    {
+      "name": "power",
+      "type": "field"
+    },
+    {
+      "name": "pp",
+      "type": "field"
+    },
+    {
+      "name": "resource_uri",
+      "type": "field"
+    },
+    {
+      "name": "SpriteConnection",
+      "type": "Type"
+    },
+    {
+      "name": "pageInfo",
+      "type": "field"
+    },
+    {
+      "name": "edges",
+      "type": "field"
+    },
+    {
+      "name": "SpriteEdge",
+      "type": "Type"
+    },
+    {
+      "name": "node",
+      "type": "field"
+    },
+    {
+      "name": "cursor",
+      "type": "field"
+    },
+    {
+      "name": "Sprite",
+      "type": "Type"
+    },
+    {
+      "name": "created",
+      "type": "field"
+    },
+    {
+      "name": "id",
+      "type": "field"
+    },
+    {
+      "name": "image",
+      "type": "field"
+    },
+    {
+      "name": "modified",
+      "type": "field"
+    },
+    {
+      "name": "name",
+      "type": "field"
+    },
+    {
+      "name": "pokemon",
+      "type": "field"
+    },
+    {
+      "name": "resource_uri",
+      "type": "field"
+    },
+    {
+      "name": "TypeConnection",
+      "type": "Type"
+    },
+    {
+      "name": "pageInfo",
+      "type": "field"
+    },
+    {
+      "name": "edges",
+      "type": "field"
+    },
+    {
+      "name": "TypeEdge",
+      "type": "Type"
+    },
+    {
+      "name": "node",
+      "type": "field"
+    },
+    {
+      "name": "cursor",
+      "type": "field"
+    },
+    {
+      "name": "Type",
+      "type": "Type"
+    },
+    {
+      "name": "created",
+      "type": "field"
+    },
+    {
+      "name": "id",
+      "type": "field"
+    },
+    {
+      "name": "ineffective",
+      "type": "field"
+    },
+    {
+      "name": "modified",
+      "type": "field"
+    },
+    {
+      "name": "name",
+      "type": "field"
+    },
+    {
+      "name": "no_effect",
+      "type": "field"
+    },
+    {
+      "name": "resistance",
+      "type": "field"
+    },
+    {
+      "name": "resource_uri",
+      "type": "field"
+    },
+    {
+      "name": "super_effective",
+      "type": "field"
+    },
+    {
+      "name": "weakness",
+      "type": "field"
+    }
+  ],
+  "links": [
+    {
+      "source": "Query",
+      "target": "node"
+    },
+    {
+      "source": "pokedex",
+      "target": "Pokedex"
+    },
+    {
+      "source": "Query",
+      "target": "pokedex"
+    },
+    {
+      "source": "pokemon",
+      "target": "Pokemon"
+    },
+    {
+      "source": "Query",
+      "target": "pokemon"
+    },
+    {
+      "source": "Node",
+      "target": "id"
+    },
+    {
+      "source": "Pokedex",
+      "target": "id"
+    },
+    {
+      "source": "Pokedex",
+      "target": "created"
+    },
+    {
+      "source": "Pokedex",
+      "target": "modified"
+    },
+    {
+      "source": "Pokedex",
+      "target": "name"
+    },
+    {
+      "source": "pokemon",
+      "target": "PokemonConnection"
+    },
+    {
+      "source": "Pokedex",
+      "target": "pokemon"
+    },
+    {
+      "source": "Pokedex",
+      "target": "resource_uri"
+    },
+    {
+      "source": "PokemonConnection",
+      "target": "pageInfo"
+    },
+    {
+      "source": "PokemonConnection",
+      "target": "edges"
+    },
+    {
+      "source": "PageInfo",
+      "target": "hasNextPage"
+    },
+    {
+      "source": "PageInfo",
+      "target": "hasPreviousPage"
+    },
+    {
+      "source": "PageInfo",
+      "target": "startCursor"
+    },
+    {
+      "source": "PageInfo",
+      "target": "endCursor"
+    },
+    {
+      "source": "node",
+      "target": "Pokemon"
+    },
+    {
+      "source": "PokemonEdge",
+      "target": "node"
+    },
+    {
+      "source": "PokemonEdge",
+      "target": "cursor"
+    },
+    {
+      "source": "Pokemon",
+      "target": "id"
+    },
+    {
+      "source": "abilities",
+      "target": "AbilityConnection"
+    },
+    {
+      "source": "Pokemon",
+      "target": "abilities"
+    },
+    {
+      "source": "Pokemon",
+      "target": "attack"
+    },
+    {
+      "source": "Pokemon",
+      "target": "catch_rate"
+    },
+    {
+      "source": "Pokemon",
+      "target": "created"
+    },
+    {
+      "source": "Pokemon",
+      "target": "defense"
+    },
+    {
+      "source": "descriptions",
+      "target": "DescriptionConnection"
+    },
+    {
+      "source": "Pokemon",
+      "target": "descriptions"
+    },
+    {
+      "source": "Pokemon",
+      "target": "egg_cycles"
+    },
+    {
+      "source": "egg_groups",
+      "target": "EggConnection"
+    },
+    {
+      "source": "Pokemon",
+      "target": "egg_groups"
+    },
+    {
+      "source": "Pokemon",
+      "target": "ev_yield"
+    },
+    {
+      "source": "Pokemon",
+      "target": "evolutions"
+    },
+    {
+      "source": "Pokemon",
+      "target": "exp"
+    },
+    {
+      "source": "Pokemon",
+      "target": "growth_rate"
+    },
+    {
+      "source": "Pokemon",
+      "target": "happiness"
+    },
+    {
+      "source": "Pokemon",
+      "target": "height"
+    },
+    {
+      "source": "Pokemon",
+      "target": "hp"
+    },
+    {
+      "source": "Pokemon",
+      "target": "male_female_ratio"
+    },
+    {
+      "source": "Pokemon",
+      "target": "modified"
+    },
+    {
+      "source": "moves",
+      "target": "MoveConnection"
+    },
+    {
+      "source": "Pokemon",
+      "target": "moves"
+    },
+    {
+      "source": "Pokemon",
+      "target": "name"
+    },
+    {
+      "source": "Pokemon",
+      "target": "national_id"
+    },
+    {
+      "source": "Pokemon",
+      "target": "pkdx_id"
+    },
+    {
+      "source": "Pokemon",
+      "target": "resource_uri"
+    },
+    {
+      "source": "Pokemon",
+      "target": "sp_atk"
+    },
+    {
+      "source": "Pokemon",
+      "target": "sp_def"
+    },
+    {
+      "source": "Pokemon",
+      "target": "species"
+    },
+    {
+      "source": "Pokemon",
+      "target": "speed"
+    },
+    {
+      "source": "sprites",
+      "target": "SpriteConnection"
+    },
+    {
+      "source": "Pokemon",
+      "target": "sprites"
+    },
+    {
+      "source": "Pokemon",
+      "target": "total"
+    },
+    {
+      "source": "types",
+      "target": "TypeConnection"
+    },
+    {
+      "source": "Pokemon",
+      "target": "types"
+    },
+    {
+      "source": "Pokemon",
+      "target": "weight"
+    },
+    {
+      "source": "AbilityConnection",
+      "target": "pageInfo"
+    },
+    {
+      "source": "AbilityConnection",
+      "target": "edges"
+    },
+    {
+      "source": "node",
+      "target": "Ability"
+    },
+    {
+      "source": "AbilityEdge",
+      "target": "node"
+    },
+    {
+      "source": "AbilityEdge",
+      "target": "cursor"
+    },
+    {
+      "source": "Ability",
+      "target": "id"
+    },
+    {
+      "source": "Ability",
+      "target": "name"
+    },
+    {
+      "source": "Ability",
+      "target": "created"
+    },
+    {
+      "source": "Ability",
+      "target": "modified"
+    },
+    {
+      "source": "Ability",
+      "target": "description"
+    },
+    {
+      "source": "Ability",
+      "target": "resource_uri"
+    },
+    {
+      "source": "DescriptionConnection",
+      "target": "pageInfo"
+    },
+    {
+      "source": "DescriptionConnection",
+      "target": "edges"
+    },
+    {
+      "source": "node",
+      "target": "Description"
+    },
+    {
+      "source": "DescriptionEdge",
+      "target": "node"
+    },
+    {
+      "source": "DescriptionEdge",
+      "target": "cursor"
+    },
+    {
+      "source": "Description",
+      "target": "created"
+    },
+    {
+      "source": "Description",
+      "target": "description"
+    },
+    {
+      "source": "games",
+      "target": "GameConnection"
+    },
+    {
+      "source": "Description",
+      "target": "games"
+    },
+    {
+      "source": "Description",
+      "target": "id"
+    },
+    {
+      "source": "Description",
+      "target": "modified"
+    },
+    {
+      "source": "Description",
+      "target": "name"
+    },
+    {
+      "source": "pokemon",
+      "target": "Pokemon"
+    },
+    {
+      "source": "Description",
+      "target": "pokemon"
+    },
+    {
+      "source": "Description",
+      "target": "resource_uri"
+    },
+    {
+      "source": "GameConnection",
+      "target": "pageInfo"
+    },
+    {
+      "source": "GameConnection",
+      "target": "edges"
+    },
+    {
+      "source": "node",
+      "target": "Game"
+    },
+    {
+      "source": "GameEdge",
+      "target": "node"
+    },
+    {
+      "source": "GameEdge",
+      "target": "cursor"
+    },
+    {
+      "source": "Game",
+      "target": "created"
+    },
+    {
+      "source": "Game",
+      "target": "generation"
+    },
+    {
+      "source": "Game",
+      "target": "id"
+    },
+    {
+      "source": "Game",
+      "target": "modified"
+    },
+    {
+      "source": "Game",
+      "target": "name"
+    },
+    {
+      "source": "Game",
+      "target": "release_year"
+    },
+    {
+      "source": "Game",
+      "target": "resource_uri"
+    },
+    {
+      "source": "EggConnection",
+      "target": "pageInfo"
+    },
+    {
+      "source": "EggConnection",
+      "target": "edges"
+    },
+    {
+      "source": "node",
+      "target": "Egg"
+    },
+    {
+      "source": "EggEdge",
+      "target": "node"
+    },
+    {
+      "source": "EggEdge",
+      "target": "cursor"
+    },
+    {
+      "source": "Egg",
+      "target": "created"
+    },
+    {
+      "source": "Egg",
+      "target": "id"
+    },
+    {
+      "source": "Egg",
+      "target": "modified"
+    },
+    {
+      "source": "Egg",
+      "target": "name"
+    },
+    {
+      "source": "pokemon",
+      "target": "PokemonConnection"
+    },
+    {
+      "source": "Egg",
+      "target": "pokemon"
+    },
+    {
+      "source": "Egg",
+      "target": "resource_uri"
+    },
+    {
+      "source": "Evolution",
+      "target": "level"
+    },
+    {
+      "source": "Evolution",
+      "target": "method"
+    },
+    {
+      "source": "pokemon",
+      "target": "Pokemon"
+    },
+    {
+      "source": "Evolution",
+      "target": "pokemon"
+    },
+    {
+      "source": "Evolution",
+      "target": "to"
+    },
+    {
+      "source": "MoveConnection",
+      "target": "pageInfo"
+    },
+    {
+      "source": "MoveConnection",
+      "target": "edges"
+    },
+    {
+      "source": "node",
+      "target": "Move"
+    },
+    {
+      "source": "MoveEdge",
+      "target": "node"
+    },
+    {
+      "source": "MoveEdge",
+      "target": "cursor"
+    },
+    {
+      "source": "Move",
+      "target": "accuracy"
+    },
+    {
+      "source": "Move",
+      "target": "category"
+    },
+    {
+      "source": "Move",
+      "target": "created"
+    },
+    {
+      "source": "Move",
+      "target": "description"
+    },
+    {
+      "source": "Move",
+      "target": "id"
+    },
+    {
+      "source": "Move",
+      "target": "modified"
+    },
+    {
+      "source": "Move",
+      "target": "name"
+    },
+    {
+      "source": "Move",
+      "target": "power"
+    },
+    {
+      "source": "Move",
+      "target": "pp"
+    },
+    {
+      "source": "Move",
+      "target": "resource_uri"
+    },
+    {
+      "source": "SpriteConnection",
+      "target": "pageInfo"
+    },
+    {
+      "source": "SpriteConnection",
+      "target": "edges"
+    },
+    {
+      "source": "node",
+      "target": "Sprite"
+    },
+    {
+      "source": "SpriteEdge",
+      "target": "node"
+    },
+    {
+      "source": "SpriteEdge",
+      "target": "cursor"
+    },
+    {
+      "source": "Sprite",
+      "target": "created"
+    },
+    {
+      "source": "Sprite",
+      "target": "id"
+    },
+    {
+      "source": "Sprite",
+      "target": "image"
+    },
+    {
+      "source": "Sprite",
+      "target": "modified"
+    },
+    {
+      "source": "Sprite",
+      "target": "name"
+    },
+    {
+      "source": "pokemon",
+      "target": "Pokemon"
+    },
+    {
+      "source": "Sprite",
+      "target": "pokemon"
+    },
+    {
+      "source": "Sprite",
+      "target": "resource_uri"
+    },
+    {
+      "source": "TypeConnection",
+      "target": "pageInfo"
+    },
+    {
+      "source": "TypeConnection",
+      "target": "edges"
+    },
+    {
+      "source": "node",
+      "target": "Type"
+    },
+    {
+      "source": "TypeEdge",
+      "target": "node"
+    },
+    {
+      "source": "TypeEdge",
+      "target": "cursor"
+    },
+    {
+      "source": "Type",
+      "target": "created"
+    },
+    {
+      "source": "Type",
+      "target": "id"
+    },
+    {
+      "source": "ineffective",
+      "target": "TypeConnection"
+    },
+    {
+      "source": "Type",
+      "target": "ineffective"
+    },
+    {
+      "source": "Type",
+      "target": "modified"
+    },
+    {
+      "source": "Type",
+      "target": "name"
+    },
+    {
+      "source": "no_effect",
+      "target": "TypeConnection"
+    },
+    {
+      "source": "Type",
+      "target": "no_effect"
+    },
+    {
+      "source": "resistance",
+      "target": "TypeConnection"
+    },
+    {
+      "source": "Type",
+      "target": "resistance"
+    },
+    {
+      "source": "Type",
+      "target": "resource_uri"
+    },
+    {
+      "source": "super_effective",
+      "target": "TypeConnection"
+    },
+    {
+      "source": "Type",
+      "target": "super_effective"
+    },
+    {
+      "source": "weakness",
+      "target": "TypeConnection"
+    },
+    {
+      "source": "Type",
+      "target": "weakness"
+    }
+  ]
+}
