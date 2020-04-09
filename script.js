@@ -1,6 +1,6 @@
 
 
-d3.json("./d3schemaWC.json", (data) => {
+d3.json("./d3schemaPM.json", (data) => {
   
   let nodes = {}
   let links = data.links;
@@ -63,12 +63,12 @@ d3.json("./d3schemaWC.json", (data) => {
       .attr("x", 8)
       .attr("y", ".31em")
       .attr("class", "shadow")
-      .text(function(d) { return d.name; });
+      .text(function(d) { return d.name.split("&")[0]; });
 
   text.append("svg:text")
       .attr("x", 8)
       .attr("y", ".31em")
-      .text(function(d) { return d.name; });
+      .text(function(d) { return d.name.split("&")[0]; });
 
   // Use elliptical arc path segments to doubly-encode directionality.
   function tick() {

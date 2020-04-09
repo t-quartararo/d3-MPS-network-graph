@@ -1,0 +1,342 @@
+{
+  "nodes": [
+    {
+      "name": "Query&",
+      "type": "Type"
+    },
+    {
+      "name": "query&Query",
+      "type": "field"
+    },
+    {
+      "name": "query&Query",
+      "type": "field"
+    },
+    {
+      "name": "pokemons&Query",
+      "type": "field"
+    },
+    {
+      "name": "pokemon&Query",
+      "type": "field"
+    },
+    {
+      "name": "pokemon&Query",
+      "type": "field"
+    },
+    {
+      "name": "Pokemon&",
+      "type": "Type"
+    },
+    {
+      "name": "id&Pokemon",
+      "type": "field"
+    },
+    {
+      "name": "number&Pokemon",
+      "type": "field"
+    },
+    {
+      "name": "name&Pokemon",
+      "type": "field"
+    },
+    {
+      "name": "weight&Pokemon",
+      "type": "field"
+    },
+    {
+      "name": "weight&Pokemon",
+      "type": "field"
+    },
+    {
+      "name": "height&Pokemon",
+      "type": "field"
+    },
+    {
+      "name": "height&Pokemon",
+      "type": "field"
+    },
+    {
+      "name": "classification&Pokemon",
+      "type": "field"
+    },
+    {
+      "name": "types&Pokemon",
+      "type": "field"
+    },
+    {
+      "name": "resistant&Pokemon",
+      "type": "field"
+    },
+    {
+      "name": "attacks&Pokemon",
+      "type": "field"
+    },
+    {
+      "name": "attacks&Pokemon",
+      "type": "field"
+    },
+    {
+      "name": "weaknesses&Pokemon",
+      "type": "field"
+    },
+    {
+      "name": "fleeRate&Pokemon",
+      "type": "field"
+    },
+    {
+      "name": "maxCP&Pokemon",
+      "type": "field"
+    },
+    {
+      "name": "evolutions&Pokemon",
+      "type": "field"
+    },
+    {
+      "name": "evolutionRequirements&Pokemon",
+      "type": "field"
+    },
+    {
+      "name": "evolutionRequirements&Pokemon",
+      "type": "field"
+    },
+    {
+      "name": "maxHP&Pokemon",
+      "type": "field"
+    },
+    {
+      "name": "image&Pokemon",
+      "type": "field"
+    },
+    {
+      "name": "PokemonDimension&",
+      "type": "Type"
+    },
+    {
+      "name": "minimum&PokemonDimension",
+      "type": "field"
+    },
+    {
+      "name": "maximum&PokemonDimension",
+      "type": "field"
+    },
+    {
+      "name": "PokemonAttack&",
+      "type": "Type"
+    },
+    {
+      "name": "fast&PokemonAttack",
+      "type": "field"
+    },
+    {
+      "name": "special&PokemonAttack",
+      "type": "field"
+    },
+    {
+      "name": "Attack&",
+      "type": "Type"
+    },
+    {
+      "name": "name&Attack",
+      "type": "field"
+    },
+    {
+      "name": "type&Attack",
+      "type": "field"
+    },
+    {
+      "name": "damage&Attack",
+      "type": "field"
+    },
+    {
+      "name": "PokemonEvolutionRequirement&",
+      "type": "Type"
+    },
+    {
+      "name": "amount&PokemonEvolutionRequirement",
+      "type": "field"
+    },
+    {
+      "name": "name&PokemonEvolutionRequirement",
+      "type": "field"
+    }
+  ],
+  "links": [
+    {
+      "source": "query&Query",
+      "target": "Query&"
+    },
+    {
+      "source": "Query&",
+      "target": "query&Query"
+    },
+    {
+      "source": "Query&",
+      "target": "query&Query"
+    },
+    {
+      "source": "pokemons&Query",
+      "target": "Pokemon&"
+    },
+    {
+      "source": "Query&",
+      "target": "pokemons&Query"
+    },
+    {
+      "source": "pokemon&Query",
+      "target": "Pokemon&"
+    },
+    {
+      "source": "Query&",
+      "target": "pokemon&Query"
+    },
+    {
+      "source": "Query&",
+      "target": "pokemon&Query"
+    },
+    {
+      "source": "Pokemon&",
+      "target": "id&Pokemon"
+    },
+    {
+      "source": "Pokemon&",
+      "target": "number&Pokemon"
+    },
+    {
+      "source": "Pokemon&",
+      "target": "name&Pokemon"
+    },
+    {
+      "source": "weight&Pokemon",
+      "target": "PokemonDimension&"
+    },
+    {
+      "source": "Pokemon&",
+      "target": "weight&Pokemon"
+    },
+    {
+      "source": "Pokemon&",
+      "target": "weight&Pokemon"
+    },
+    {
+      "source": "height&Pokemon",
+      "target": "PokemonDimension&"
+    },
+    {
+      "source": "Pokemon&",
+      "target": "height&Pokemon"
+    },
+    {
+      "source": "Pokemon&",
+      "target": "height&Pokemon"
+    },
+    {
+      "source": "Pokemon&",
+      "target": "classification&Pokemon"
+    },
+    {
+      "source": "Pokemon&",
+      "target": "types&Pokemon"
+    },
+    {
+      "source": "Pokemon&",
+      "target": "resistant&Pokemon"
+    },
+    {
+      "source": "attacks&Pokemon",
+      "target": "PokemonAttack&"
+    },
+    {
+      "source": "Pokemon&",
+      "target": "attacks&Pokemon"
+    },
+    {
+      "source": "Pokemon&",
+      "target": "attacks&Pokemon"
+    },
+    {
+      "source": "Pokemon&",
+      "target": "weaknesses&Pokemon"
+    },
+    {
+      "source": "Pokemon&",
+      "target": "fleeRate&Pokemon"
+    },
+    {
+      "source": "Pokemon&",
+      "target": "maxCP&Pokemon"
+    },
+    {
+      "source": "evolutions&Pokemon",
+      "target": "Pokemon&"
+    },
+    {
+      "source": "Pokemon&",
+      "target": "evolutions&Pokemon"
+    },
+    {
+      "source": "evolutionRequirements&Pokemon",
+      "target": "PokemonEvolutionRequirement&"
+    },
+    {
+      "source": "Pokemon&",
+      "target": "evolutionRequirements&Pokemon"
+    },
+    {
+      "source": "Pokemon&",
+      "target": "evolutionRequirements&Pokemon"
+    },
+    {
+      "source": "Pokemon&",
+      "target": "maxHP&Pokemon"
+    },
+    {
+      "source": "Pokemon&",
+      "target": "image&Pokemon"
+    },
+    {
+      "source": "PokemonDimension&",
+      "target": "minimum&PokemonDimension"
+    },
+    {
+      "source": "PokemonDimension&",
+      "target": "maximum&PokemonDimension"
+    },
+    {
+      "source": "fast&PokemonAttack",
+      "target": "Attack&"
+    },
+    {
+      "source": "PokemonAttack&",
+      "target": "fast&PokemonAttack"
+    },
+    {
+      "source": "special&PokemonAttack",
+      "target": "Attack&"
+    },
+    {
+      "source": "PokemonAttack&",
+      "target": "special&PokemonAttack"
+    },
+    {
+      "source": "Attack&",
+      "target": "name&Attack"
+    },
+    {
+      "source": "Attack&",
+      "target": "type&Attack"
+    },
+    {
+      "source": "Attack&",
+      "target": "damage&Attack"
+    },
+    {
+      "source": "PokemonEvolutionRequirement&",
+      "target": "amount&PokemonEvolutionRequirement"
+    },
+    {
+      "source": "PokemonEvolutionRequirement&",
+      "target": "name&PokemonEvolutionRequirement"
+    }
+  ]
+}
